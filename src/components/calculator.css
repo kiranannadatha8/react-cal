@@ -1,0 +1,24 @@
+#display{
+  border: 2px solid red;
+  height: 60px;
+  color: white;
+}
+.lower{
+  margin-left: 15px;
+}
+/*
+.row{
+  border: 2px solid white;
+}
+.col, .col-6, .col-3{
+  border: 2px solid white;
+}
+*/
+.cal{
+  border: 2px solid red;
+  width: 350px;
+  background-color: black;
+  height: 450px;
+  margin-top: 200px;
+}
+
