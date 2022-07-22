@@ -1,0 +1,12 @@
+const [display, setDisplay] = useState("")
+  const handleOnClick = (event) => {
+    setDisplay((display+event.target.value).replace(/^0+/,''))
+  }
+  const handleOprations = (symbol) => {
+    setDisplay((prev) => prev + symbol)
+  }
+  const handleResult = () => {
+    // eslint-disable-next-line
+    let num = eval(display)
+    setDisplay(`${Number.parseFloat(num.toFixed(4))}`)
+  }
